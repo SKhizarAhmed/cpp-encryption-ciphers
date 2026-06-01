@@ -3,6 +3,7 @@
 #include <string>
 #include <cstdlib>
 #include <time.h>
+#include <cstring>
 using namespace std;
 int main() {
 	char txt[100];

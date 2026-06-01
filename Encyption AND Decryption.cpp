@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <conio.h>
 #include <string>
@@ -10,15 +9,15 @@ int main() {
 	int choice;
 	string encrypt_txt;
 	string decrypt_txt;
-	string cypher_letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*(){}[]:;<>?/`~_-+=";
-	string translated = "T1rQzOPe7Yy94ilIL2kJ0MnBxZRgVcCV!@#$%^&*(){}[]:;<>?/`~_-+=hHsSbdfgjmoptuwADFGHJKLNUX3568";
+	string cypher_letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*(){}[]:;<>?/`~_-+= ";
+	string translated = "T1rQzOPe7Yy94ilIL2kJ0MnBxZRgVcCV!@#$%^&*(){}[]:;<>?/`~_-+=hHsSbdfgjmoptuwADFGHJKLNUX3568a";
 	cout << "Welcome to our app"<<endl;
 	cout << "Select the operation you would like to perform: "<<endl;
 	cout << "1. Encrypt";
 	cout << "\n2. Decrypt"<<endl;
 	cin >> choice;
 	if (choice == 1) {
-		cin.ignore();
+		cin.ignore(); 
 		cout << "Enter your text to be Encypted (Max limit: 100): ";
 		cin.get(txt, 100);
 		int txt_len = strlen(txt);
@@ -46,4 +45,3 @@ int main() {
 	}
 	return 0;
 }
-*/
